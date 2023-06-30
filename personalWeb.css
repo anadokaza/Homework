@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+    font-size: 62.5%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffecef;
+    height: 9.6rem;
+    padding:  0 4.8rem;
+}
+.logo{
+    height: 9.4rem;
+
+}
+
+.section-main
+{
+    background-color: #ffecef;
+    padding: 4.8rem 0 9.6rem;
+
+}
+.main{
+    max-width: 130rem;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center;
+    padding: 0 3.2rem;
+}
+.main-img{
+    width: 100%;
+
+}
+.main-nav-list{
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+
+}
+.main-nav-link{
+    text-decoration: none;
+    color: #555555;
+    font-weight: bold;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+    padding-right: 2rem;
+}
+.main-nav-link:hover{
+    color: #cf9ca5;
+}
+.primary-heading
+{
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.05;
+    color: #333;
+    letter-spacing: -0.5px;
+    margin-bottom: 3.2rem;
+}
+.description{
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+}
+.button:link, .button:visited{
+    background-color: #e6adb7;
+    font-size: 2rem;
+    color: white;
+    padding: 1.6rem 3.2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+
+    transition: background-color 1s;
+}
+.button-outline:link, .button-outline:visited{
+    background-color: white;
+    color: #555555;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    font-weight: lighter;
+}
+.button-full:hover, .button-full:active{
+    background-color: #cf9ca5;
+}
+.button-outline:hover, .button-outline:active{
+    box-shadow: inset 0 0 0 7px white;
+    background-color: #ffecef;
+}
+
+
+.main-nav {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    width: 1300px;
+    height: 650px;
+}
+
+.main-nav li {
+    list-style: none;
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background: #000;
+    transform: rotate(45deg);
+    transition: 0.5s;
+    margin: -100px;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+.main-nav li:hover {
+    opacity: 1;
+}
+
+.main-nav li.item1 {
+    top: 0;
+    left: 0;
+}
+
+.main-nav li.item2 {
+    bottom: 0;
+    left: 25%;
+}
+
+.main-nav li.item3 {
+    top: 0;
+    left: 50%;
+}
+
+.main-nav li.item4 {
+    bottom: 0;
+    left: 75%;
+}
+
+.main-nav li.item5 {
+    top: 0;
+    left: 100%;
+}
+
+.main-nav li .bg {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+}
+
+.main-nav li.item1 .bg {
+    background: url(https://www.costacruises.eu/content/dam/costa/inventory-assets/ports/JTR/jtr-santorini-port-1.jpg.image.2048.1536.medium.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav li.item2 .bg {
+    background: url(https://www.goway.com/media/cache/dc/f1/dcf1a366d11dcdbbc2ca60d20b2fe7be.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav li.item3 .bg {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3q0yOxX4N66tRxvHyfBjjiHMycI1eVWOlyUTmRx7aFfLcBv7GFcL23uFQMkV-PhsPysI&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav li.item4 .bg {
+    background: url(https://www.farecompare.com/wp-content/uploads/2018/12/2019-Top-Travel-Destinations-Sydney.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav li.item5 .bg {
+    background: url(https://assets.traveltriangle.com/blog/wp-content/uploads/2016/07/limestone-rock-phang-nga-1-Beautiful-limestone-rock-in-the-ocean.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.look{
+    position: absolute;
+    top: 800px;
+    left: 40px;
+    font-size: 32px;
+    border: #cf9ca5 7px solid;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: #ffecef;
+    width: 500px;
+    line-height: 3rem;
+    font-weight: lighter;
+
+}
+
+.section-contact{
+    padding: 9.6rem 10.5rem;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #e6adb7;
+    box-shadow: 0 2.4rem 4.8rem;
+    border-radius: 5rem;
+    background-image: linear-gradient(#ffecef, #cf9ca5);
+    height: 50rem;
+}
+
+.contact-textbox{
+    padding: 6.4rem;
+    color: #333333;
+}
+.contact .title{
+    color: #333333;
+    margin-bottom: 3.2rem;
+    font-size: 3.6rem;
+}
+
+
+.contact-image{
+    background-image: url("https://www.moyopro.com/wp-content/uploads/2015/02/Lets-get-in-touch.png");
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-position: center;
+}
+.contact-text{
+    font-size: 2rem;
+    line-height: 1.8;
+    margin-bottom: 4.8rem;
+
+}
+.contact-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+}
+.contact-form label{
+    display: block;
+    font-size: 1.6rem;
+
+    margin-bottom: 1.2rem;
+    font-weight: bold;
+}
+.contact-form input{
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    border: none;
+    background-color: #ffecef;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+.contact-form input::placeholder{
+    color: #c5c0c0;
+}
+input:hover{
+    background-color: #cf9ca5;
+}
+
