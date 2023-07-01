@@ -42,7 +42,7 @@ body{
 .grid-container div p {
     margin: 5px 0;
     padding: 0;
-    font-size: 1.5rem;
+    font-size: 0.7rem;
     text-align: center;
     font-style: italic;
 
@@ -53,11 +53,11 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #ffecef;
-    height: 9.6rem;
+    height: 4.7rem;
     padding:  0 4.8rem;
 }
 .logo{
-    height: 9.4rem;
+    height: 4.7rem;
 
 }
 
@@ -68,11 +68,11 @@ body{
 
 }
 .main{
-    max-width: 130rem;
+    max-width: 70rem;
     display: grid;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
-    gap: 9.6rem;
+    gap: 5.6rem;
     align-items: center;
     padding: 0 3.2rem;
 }
@@ -83,23 +83,23 @@ body{
 .main-nav-list{
     list-style: none;
     display: flex;
-    gap: 3.2rem;
+    gap: 2.2rem;
 
 }
 .main-nav-link{
     text-decoration: none;
     color: #555555;
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 1rem;
     transition: all 0.3s;
-    padding-right: 2rem;
+    padding-right: 1rem;
 }
 .main-nav-link:hover{
     color: #cf9ca5;
 }
 .primary-heading
 {
-    font-size: 5.2rem;
+    font-size: 3.2rem;
     font-weight: 700;
     line-height: 1.05;
     color: #333;
@@ -108,8 +108,4 @@ body{
 }
 body > header{
     display: block;
-}
-body > div > div:nth-child(3) > p
-{
-
 }

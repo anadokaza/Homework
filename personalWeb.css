@@ -15,26 +15,26 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #ffecef;
-    height: 9.6rem;
+    height: 4.7rem;
     padding:  0 4.8rem;
 }
 .logo{
-    height: 9.4rem;
+    height: 4.7rem;
 
 }
 
 .section-main
 {
     background-color: #ffecef;
-    padding: 4.8rem 0 9.6rem;
+    padding: 2.8rem 0 9.6rem;
 
 }
 .main{
-    max-width: 130rem;
+    max-width: 70rem;
     display: grid;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
-    gap: 9.6rem;
+    gap: 5.6rem;
     align-items: center;
     padding: 0 3.2rem;
 }
@@ -45,52 +45,53 @@ body{
 .main-nav-list{
     list-style: none;
     display: flex;
-    gap: 3.2rem;
+    gap: 2.2rem;
 
 }
 .main-nav-link{
     text-decoration: none;
     color: #555555;
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 1rem;
     transition: all 0.3s;
-    padding-right: 2rem;
+    padding-right: 1rem;
 }
 .main-nav-link:hover{
     color: #cf9ca5;
 }
 .primary-heading
 {
-    font-size: 5.2rem;
+    font-size: 1.2rem;
     font-weight: 700;
     line-height: 1.05;
     color: #333;
     letter-spacing: -0.5px;
-    margin-bottom: 3.2rem;
+    margin-bottom: 1.2rem;
 }
 .description{
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 4.8rem;
 }
 .button:link, .button:visited{
     background-color: #e6adb7;
-    font-size: 2rem;
+    font-size: 1rem;
     color: white;
-    padding: 1.6rem 3.2rem;
-    border-radius: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
     text-decoration: none;
     display: inline-block;
     font-weight: 600;
 
     transition: background-color 1s;
 }
+
 .button-outline:link, .button-outline:visited{
     background-color: white;
     color: #555555;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
     font-weight: lighter;
 }
 .button-full:hover, .button-full:active{
@@ -109,15 +110,15 @@ body{
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
-    width: 1300px;
-    height: 650px;
+    width: 650px;
+    height: 320px;
 }
 
 .main-nav li {
     list-style: none;
     position: absolute;
-    width: 450px;
-    height: 450px;
+    width: 250px;
+    height: 250px;
     background: #000;
     transform: rotate(45deg);
     transition: 0.5s;
@@ -192,21 +193,21 @@ body{
 }
 .look{
     position: absolute;
-    top: 800px;
+    top: 500px;
     left: 40px;
-    font-size: 32px;
+    font-size: 16px;
     border: #cf9ca5 7px solid;
     padding: 10px;
     border-radius: 2px;
     background-color: #ffecef;
-    width: 500px;
-    line-height: 3rem;
+    width: 250px;
+    line-height: 1.5rem;
     font-weight: lighter;
 
 }
 
 .section-contact{
-    padding: 9.6rem 10.5rem;
+    padding: 2.6rem 2.5rem;
 }
 .contact{
     display: grid;
@@ -215,48 +216,48 @@ body{
     box-shadow: 0 2.4rem 4.8rem;
     border-radius: 5rem;
     background-image: linear-gradient(#ffecef, #cf9ca5);
-    height: 50rem;
+    height: 25rem;
 }
 
 .contact-textbox{
-    padding: 6.4rem;
+    padding: 2.4rem;
     color: #333333;
 }
 .contact .title{
     color: #333333;
-    margin-bottom: 3.2rem;
-    font-size: 3.6rem;
+    margin-bottom: 1.2rem;
+    font-size: 2.6rem;
 }
 
 
 .contact-image{
     background-image: url("https://www.moyopro.com/wp-content/uploads/2015/02/Lets-get-in-touch.png");
     background-repeat: no-repeat;
-    background-size: 500px 500px;
+    background-size: 250px 250px;
     background-position: center;
 }
 .contact-text{
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 1.8;
-    margin-bottom: 4.8rem;
+    margin-bottom: 1.8rem;
 
 }
 .contact-form{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 3.2rem;
+    column-gap: 2.2rem;
 }
 .contact-form label{
     display: block;
-    font-size: 1.6rem;
+    font-size: 1rem;
 
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.6rem;
     font-weight: bold;
 }
 .contact-form input{
     width: 100%;
     padding: 1.2rem;
-    font-size: 1.8rem;
+    font-size: 1rem;
     border: none;
     background-color: #ffecef;
     border-radius: 9px;
